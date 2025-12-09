@@ -1,11 +1,12 @@
 # Hi there, I'm Richmond A.M! 👋
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=ffbf69&center=false&vCenter=false&width=435&lines=AI/ML+Enthusiast;Mobile+Developer;Web+Developer;UI%2FUX+Designer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=ffbf69&center=false&vCenter=false&width=435&lines=AI/ML+Enthusiast;Mobile+Developer;Web+Developer;UI%2FUX+Designer;Based+In+Semarang,+Indonesia)](https://git.io/typing-svg)
 
 I'm a passionate **Developer and Designer** who loves exploring the intersection of **Artificial Intelligence**, **Mobile & Web Development**, and **User Experience Design**. I build intelligent, beautiful, and user-centered applications.
 
 - 🤖 I'm currently working on **AI-powered Mobile & Web Applications**
-- 🌱 I'm currently learning **Machine Learning, Advanced Mobile Development & Design Systems**
+- 📚 I'm currently pursuing my **Bachelor's Degree in Informatics Engineering**
+- 🌱 I'm also learning about **Machine Learning, Advanced Mobile Development & Design Systems**
 - 💡 I love combining **AI capabilities with intuitive UI/UX**
 - 💬 Ask me about **AI Integration, Mobile Development, Web Technologies, and UI/UX Design**
 
