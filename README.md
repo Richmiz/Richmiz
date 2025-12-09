@@ -51,25 +51,13 @@ I'm a passionate **Developer and Designer** who loves exploring the intersection
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Richmiz&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Richmiz&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
 ### 🔗 Connect with Me
 
 <div align="left">
   <a href="https://github.com/Richmiz" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Richmiz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="mailto:your.ampahmensahrich.com">
+  <a href="mailto:ampahmensahrich@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/kofi-richmond" target="_blank">
