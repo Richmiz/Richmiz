@@ -5,11 +5,11 @@
 
 I'm a passionate, self-driven, trustworthy, accountable, diligent, and detail-oriented **Developer and Designer** who loves exploring the intersection of **Artificial Intelligence**, **Mobile & Web Development**, and **User Experience Design**. I build intelligent, beautiful, and user-centered applications.
 
-- 🤖 I'm currently working on **AI-powered Mobile & Web Applications**
-- 📚 I'm currently pursuing my **Bachelor's Degree in Informatics Engineering**
-- 🌱 I'm also learning about **Machine Learning, Advanced Mobile Development & Design Systems**
-- 💡 I love combining **AI capabilities with intuitive UI/UX**
-- 💬 Ask me about **AI Integration, Mobile Development, Web Technologies, and UI/UX Design**
+- 🤖 I'm currently working on **AI-powered Mobile & Web Applications.**
+- 📚 I'm currently pursuing my **Bachelor's Degree in Informatics Engineering.**
+- 🌱 I'm also learning about **Machine Learning, Advanced Mobile Development & Design Systems.**
+- 💡 I love combining **AI capabilities with intuitive UI/UX.**
+- 💬 Ask me about **AI Integration, Mobile Development, Web Technologies, and UI/UX Design.**
 
 ---
 
