@@ -1,91 +1,108 @@
-# Hi there, I'm Richmond A-M! 👋
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="1280" alt="Richmond Ampah-Mensah — Applied AI, medical imaging, computer vision, and mobile and web software.">
+</picture>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=ffbf69&center=false&vCenter=false&width=435&lines=AI/ML+Enthusiast;Mobile+Developer;Web+Developer;UI%2FUX+Designer;Based+In+Semarang,+Indonesia)](https://git.io/typing-svg)
+<p align="center">
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="#research-interests">Research interests</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/kofi-richmond">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:ampahmensahrich@gmail.com">Email</a>
+</p>
 
+## Hello, I'm Richmond.
 
-I'm a passionate, self-driven, trustworthy, accountable, diligent, and detail-oriented **Developer and Designer** who loves exploring the intersection of **Artificial Intelligence**, **Mobile & Web Development**, and **User Experience Design**. I build intelligent, beautiful, and user-centered applications.
+I work across **applied AI research, medical imaging, and software development**. My projects explore how models interpret images and documents, how their behavior changes during adaptation and compression, and how to turn those capabilities into usable applications.
 
-- 🤖 I'm currently working on **AI-powered Mobile & Web Applications.**
-- 📚 I'm currently pursuing my **Bachelor's Degree in Informatics Engineering.**
-- 🌱 I'm also learning about **Machine Learning, Advanced Mobile Development & Design Systems.**
-- 💡 I love combining **AI capabilities with intuitive UI/UX.**
-- 💬 Ask me about **AI Integration, Mobile Development, Web Technologies, and UI/UX Design.**
+My research interests include medical image segmentation, radiomics, vision transformers, and reliable evaluation. Alongside that work, I build mobile and web applications with attention to the details people interact with: clear screens, dependable workflows, and thoughtful UI/UX.
 
----
+## Selected work
 
-### 🛠️ Tech Stack & Tools
+### Medical image segmentation
 
-**Languages**
-<div align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-</div>
+<a href="https://github.com/Richmiz/Deployment-Gatted"><img src="assets/project-med.svg" width="900" alt="Conceptual illustration of an image, a segmentation mask, and an evaluation step."></a>
 
-**Mobile Development**
-<div align="left">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-</div>
+**MedSAM-style adaptation, distillation, and compression.** Research code exploring LoRA adaptation of a segmentation teacher, a compact U-Net student, ONNX export, and INT8 evaluation against a predefined segmentation-quality threshold. The repository includes implementation code and lightweight experiment records.
 
-**Web Development**
-<div align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-</div>
+<sub>MEDICAL IMAGING &nbsp; · &nbsp; PYTORCH &nbsp; · &nbsp; LORA &nbsp; · &nbsp; ONNX &nbsp; · &nbsp; QUANTIZATION</sub>
 
-**AI & Machine Learning**
-<div align="left">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-</div>
+[Explore the research code →](https://github.com/Richmiz/Deployment-Gatted)
 
-**Design Tools**
-<div align="left">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white" alt="Adobe Illustrator" />
-</div>
+### MobileFaceLoRA
 
----
+<a href="https://github.com/Richmiz/MobileFaceLoRA"><img src="assets/project-face.svg" width="900" alt="Conceptual illustration of facial landmarks, vision model layers, and an embedding vector."></a>
 
-### 🔗 Connect with Me
+**Adapting pretrained vision models for face recognition.** A research workspace combining a frozen CLIP vision backbone, LoRA adapters, ArcFace training, and optional EdgeFace teacher distillation. Includes evaluation records, reproducibility notes, and documented TFLite export work.
 
-<div align="left">
-  <a href="https://github.com/Richmiz" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Richmiz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:ampahmensahrich@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/kofi-richmond" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/richmiz__" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-</div>
+<sub>COMPUTER VISION &nbsp; · &nbsp; CLIP &nbsp; · &nbsp; PARAMETER-EFFICIENT ADAPTATION &nbsp; · &nbsp; TFLITE</sub>
 
----
+[Explore the repository →](https://github.com/Richmiz/MobileFaceLoRA)
 
-### 💼 What I Do
+### Document evidence retrieval
 
-- 🤖 **AI Integration**: Building intelligent applications powered by machine learning and modern AI APIs
-- 📱 **Mobile Development**: Creating cross-platform mobile apps with React Native and Flutter
-- 🌐 **Web Development**: Developing responsive and performant web applications with modern frameworks
-- 🎨 **UI/UX Design**: Crafting beautiful, intuitive, and user-centered designs
-- 🔄 **Full-Stack Development**: End-to-end application development from design to deployment
+<a href="https://github.com/Richmiz/docvqa-evidence-retrieval"><img src="assets/project-doc.svg" width="900" alt="Conceptual illustration of document pages, evidence retrieval, and a retrieved result."></a>
 
----
+**Understanding where document question answering succeeds and fails.** A controlled comparison of OCR-text, visual, and hybrid evidence retrieval on DocVQA and MP-DocVQA. The reproducibility package includes locked configurations, aggregate results, tests, and analysis separating retrieval errors from answer-generation errors.
 
-<div align="center">
-  <i>💡 "The best way to predict the future is to invent it." - Alan Kay</i>
-</div>
+<sub>DOCUMENT AI &nbsp; · &nbsp; MULTIMODAL RETRIEVAL &nbsp; · &nbsp; VISION-LANGUAGE MODELS &nbsp; · &nbsp; EVALUATION</sub>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Richmiz&color=blueviolet&style=for-the-badge" alt="Profile Views" />
-</div>
+[Explore the study and results →](https://github.com/Richmiz/docvqa-evidence-retrieval)
+
+### CatalogBridge
+
+<a href="https://github.com/Richmiz/Jak2Shopee"><img src="assets/project-catalog.svg" width="900" alt="Conceptual illustration of a catalog operations interface with a sidebar and product records."></a>
+
+**From supplier pages to reviewable product records.** A local operations application for JakMall catalog extraction, pricing rules, background jobs, and human review. Built with Next.js, TypeScript, and SQLite, with persistent job history and an interface for resolving uncertain data. The extraction and review workflow is implemented; marketplace publishing remains planned.
+
+<sub>WEB APPLICATION &nbsp; · &nbsp; NEXT.JS &nbsp; · &nbsp; TYPESCRIPT &nbsp; · &nbsp; SQLITE &nbsp; · &nbsp; UI/UX</sub>
+
+[Explore the application →](https://github.com/Richmiz/Jak2Shopee)
+
+## Research that can be inspected
+
+<a href="https://github.com/Richmiz/auditable-compression"><img src="assets/project-audit.svg" width="900" alt="Conceptual illustration of linked protocol, evidence, verification, and decision records."></a>
+
+**[Auditable Compression](https://github.com/Richmiz/auditable-compression)** is a Python package for checking whether a model-compression experiment supports its recorded conclusion. It connects frozen protocols, integrity checks, and explicit decision rules, including a medical-imaging runtime case with a negative outcome.
+
+This reflects an important part of my research practice: keeping the evaluation procedure, available evidence, and final claim consistent. A useful experiment can explain a failure as clearly as a success.
+
+[Inspect the audit package →](https://github.com/Richmiz/auditable-compression) &nbsp; · &nbsp; [Reproduce the recorded decisions →](https://github.com/Richmiz/auditable-compression/blob/main/REPRODUCING.md)
+
+## Research interests
+
+- **Medical imaging:** segmentation, radiomics, representation learning, and evaluation across devices and datasets.
+- **Efficient vision models:** LoRA, knowledge distillation, quantization, and the accuracy/runtime trade-offs involved in deployment.
+- **Document understanding:** OCR, visual retrieval, multimodal evidence, and failure analysis in question answering.
+- **Reliable machine learning:** calibration, distribution shift, controlled comparisons, and reproducible experimental workflows.
+
+## Tools I work with
+
+| Area | Technologies and methods |
+| :--- | :--- |
+| AI and scientific computing | Python · PyTorch · TensorFlow · NumPy · pandas · scikit-learn |
+| Vision and model adaptation | Hugging Face Transformers · CLIP · LoRA · knowledge distillation |
+| Model export and runtime | ONNX · ONNX Runtime · TensorFlow Lite · quantization |
+| Mobile applications | React Native · Expo · TypeScript |
+| Web applications | React · Next.js · Node.js · Tailwind CSS · SQLite |
+| Design and development | Figma · Adobe Illustrator · Git · Linux / WSL |
+
+<details>
+<summary><b>A little more about how I work</b></summary>
+
+<br>
+
+For research, I care about the split between development and evaluation, meaningful baselines, and records that make a result possible to inspect. I keep limitations close to the conclusions they affect.
+
+For applications, I care about what happens beyond the first successful interaction: loading, missing information, retries, review, and recovery. I enjoy working through both the implementation and the interface.
+
+</details>
+
+## Let's connect
+
+Interested in medical imaging, applied AI, or building a useful application? I'd be glad to compare ideas and discuss a project.
+
+**[Email](mailto:ampahmensahrich@gmail.com)** &nbsp; · &nbsp; **[LinkedIn](https://www.linkedin.com/in/kofi-richmond)** &nbsp; · &nbsp; **[X](https://x.com/richmiz__)** &nbsp; · &nbsp; **[All repositories](https://github.com/Richmiz?tab=repositories)**
+
+<sub>Richmond Ampah-Mensah · Research, code, and design.</sub>
