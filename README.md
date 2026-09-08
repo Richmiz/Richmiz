@@ -30,15 +30,6 @@ My research interests include medical image segmentation, radiomics, vision tran
 
 [Explore the research code →](https://github.com/Richmiz/Deployment-Gatted)
 
-### MobileFaceLoRA
-
-<a href="https://github.com/Richmiz/MobileFaceLoRA"><img src="assets/project-face.svg" width="900" alt="Conceptual illustration of facial landmarks, vision model layers, and an embedding vector."></a>
-
-**Adapting pretrained vision models for face recognition.** A research workspace combining a frozen CLIP vision backbone, LoRA adapters, ArcFace training, and optional EdgeFace teacher distillation. Includes evaluation records, reproducibility notes, and documented TFLite export work.
-
-<sub>COMPUTER VISION &nbsp; · &nbsp; CLIP &nbsp; · &nbsp; PARAMETER-EFFICIENT ADAPTATION &nbsp; · &nbsp; TFLITE</sub>
-
-[Explore the repository →](https://github.com/Richmiz/MobileFaceLoRA)
 
 ### Document evidence retrieval
 
