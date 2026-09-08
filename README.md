@@ -41,25 +41,6 @@ My research interests include medical image segmentation, radiomics, vision tran
 
 [Explore the study and results →](https://github.com/Richmiz/docvqa-evidence-retrieval)
 
-### CatalogBridge
-
-<a href="https://github.com/Richmiz/Jak2Shopee"><img src="assets/project-catalog.svg" width="900" alt="Conceptual illustration of a catalog operations interface with a sidebar and product records."></a>
-
-**From supplier pages to reviewable product records.** A local operations application for JakMall catalog extraction, pricing rules, background jobs, and human review. Built with Next.js, TypeScript, and SQLite, with persistent job history and an interface for resolving uncertain data. The extraction and review workflow is implemented; marketplace publishing remains planned.
-
-<sub>WEB APPLICATION &nbsp; · &nbsp; NEXT.JS &nbsp; · &nbsp; TYPESCRIPT &nbsp; · &nbsp; SQLITE &nbsp; · &nbsp; UI/UX</sub>
-
-[Explore the application →](https://github.com/Richmiz/Jak2Shopee)
-
-## Research that can be inspected
-
-<a href="https://github.com/Richmiz/auditable-compression"><img src="assets/project-audit.svg" width="900" alt="Conceptual illustration of linked protocol, evidence, verification, and decision records."></a>
-
-**[Auditable Compression](https://github.com/Richmiz/auditable-compression)** is a Python package for checking whether a model-compression experiment supports its recorded conclusion. It connects frozen protocols, integrity checks, and explicit decision rules, including a medical-imaging runtime case with a negative outcome.
-
-This reflects an important part of my research practice: keeping the evaluation procedure, available evidence, and final claim consistent. A useful experiment can explain a failure as clearly as a success.
-
-[Inspect the audit package →](https://github.com/Richmiz/auditable-compression) &nbsp; · &nbsp; [Reproduce the recorded decisions →](https://github.com/Richmiz/auditable-compression/blob/main/REPRODUCING.md)
 
 ## Research interests
 
