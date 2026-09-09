@@ -1,80 +1,114 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="1280" alt="Richmond Ampah-Mensah — Applied AI, medical imaging, computer vision, and mobile and web software.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-hero-dark.svg">
+  <img src="assets/kinetic-hero-light.svg" width="1280" alt="Richmond Ampah-Mensah — Teaching machines to see. Applied AI, medical imaging, computer vision, document intelligence, and software engineering.">
 </picture>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#research-interests">Research interests</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/kofi-richmond">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="mailto:ampahmensahrich@gmail.com">Email</a>
+  <a href="#selected-work"><b>Explore my work</b></a> &nbsp; ✦ &nbsp;
+  <a href="https://www.linkedin.com/in/kofi-richmond"><b>LinkedIn</b></a> &nbsp; ✦ &nbsp;
+  <a href="https://orcid.org/0009-0007-2124-3262"><b>ORCID</b></a> &nbsp; ✦ &nbsp;
+  <a href="mailto:ampahmensahrich@gmail.com"><b>Get in touch ↗</b></a>
 </p>
 
-## Hello, I'm Richmond.
+### A researcher’s curiosity. A developer’s attention to detail.
 
-I work across **applied AI research, medical imaging, and software development**. My projects explore how models interpret images and documents, how their behavior changes during adaptation and compression, and how to turn those capabilities into usable applications.
+I'm **Richmond**, an applied AI researcher and software developer working across **medical imaging, computer vision, and document understanding**. I explore how models learn visual representations, what happens when we adapt or compress them, and how to evaluate the results carefully.
 
-My research interests include medical image segmentation, radiomics, vision transformers, and reliable evaluation. Alongside that work, I build mobile and web applications with attention to the details people interact with: clear screens, dependable workflows, and thoughtful UI/UX.
+I also build **mobile and web applications**, from the interface people touch to the workflows behind it. My work connects experiments, implementation, and design.
 
 ## Selected work
 
-### Medical image segmentation
+<a href="https://github.com/Richmiz/Deployment-Gatted">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-med-mobile-dark.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-med-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-med-dark.svg">
+    <img src="assets/kinetic-med-light.svg" width="1200" alt="01 — Medical image segmentation. Seeing the structure within. MedSAM-style adaptation, LoRA, distillation, ONNX, and INT8 evaluation. Open the research repository.">
+  </picture>
+</a>
 
-<a href="https://github.com/Richmiz/Deployment-Gatted"><img src="assets/project-med.svg" width="900" alt="Conceptual illustration of an image, a segmentation mask, and an evaluation step."></a>
+**How much can we compress a segmentation model before its quality changes?** This research code explores a MedSAM-style teacher, LoRA adaptation, a compact U-Net student, and INT8 evaluation against a predefined quality threshold. Includes implementation code and lightweight experiment records.
 
-**MedSAM-style adaptation, distillation, and compression.** Research code exploring LoRA adaptation of a segmentation teacher, a compact U-Net student, ONNX export, and INT8 evaluation against a predefined segmentation-quality threshold. The repository includes implementation code and lightweight experiment records.
-
-<sub>MEDICAL IMAGING &nbsp; · &nbsp; PYTORCH &nbsp; · &nbsp; LORA &nbsp; · &nbsp; ONNX &nbsp; · &nbsp; QUANTIZATION</sub>
-
-[Explore the research code →](https://github.com/Richmiz/Deployment-Gatted)
-
-
-### Document evidence retrieval
-
-<a href="https://github.com/Richmiz/docvqa-evidence-retrieval"><img src="assets/project-doc.svg" width="900" alt="Conceptual illustration of document pages, evidence retrieval, and a retrieved result."></a>
-
-**Understanding where document question answering succeeds and fails.** A controlled comparison of OCR-text, visual, and hybrid evidence retrieval on DocVQA and MP-DocVQA. The reproducibility package includes locked configurations, aggregate results, tests, and analysis separating retrieval errors from answer-generation errors.
-
-<sub>DOCUMENT AI &nbsp; · &nbsp; MULTIMODAL RETRIEVAL &nbsp; · &nbsp; VISION-LANGUAGE MODELS &nbsp; · &nbsp; EVALUATION</sub>
-
-[Explore the study and results →](https://github.com/Richmiz/docvqa-evidence-retrieval)
-
-
-## Research interests
-
-- **Medical imaging:** segmentation, radiomics, representation learning, and evaluation across devices and datasets.
-- **Efficient vision models:** LoRA, knowledge distillation, quantization, and the accuracy/runtime trade-offs involved in deployment.
-- **Document understanding:** OCR, visual retrieval, multimodal evidence, and failure analysis in question answering.
-- **Reliable machine learning:** calibration, distribution shift, controlled comparisons, and reproducible experimental workflows.
-
-## Tools I work with
-
-| Area | Technologies and methods |
-| :--- | :--- |
-| AI and scientific computing | Python · PyTorch · TensorFlow · NumPy · pandas · scikit-learn |
-| Vision and model adaptation | Hugging Face Transformers · CLIP · LoRA · knowledge distillation |
-| Model export and runtime | ONNX · ONNX Runtime · TensorFlow Lite · quantization |
-| Mobile applications | React Native · Expo · TypeScript |
-| Web applications | React · Next.js · Node.js · Tailwind CSS · SQLite |
-| Design and development | Figma · Adobe Illustrator · Git · Linux / WSL |
-
-<details>
-<summary><b>A little more about how I work</b></summary>
+[**Explore medical imaging research ↗**](https://github.com/Richmiz/Deployment-Gatted)
 
 <br>
 
-For research, I care about the split between development and evaluation, meaningful baselines, and records that make a result possible to inspect. I keep limitations close to the conclusions they affect.
+<a href="https://github.com/Richmiz/docvqa-evidence-retrieval">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-doc-mobile-dark.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-doc-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-doc-dark.svg">
+    <img src="assets/kinetic-doc-light.svg" width="1200" alt="02 — Document intelligence. Finding the evidence within. Text, visual, and hybrid retrieval on DocVQA and MP-DocVQA. Open the study and results.">
+  </picture>
+</a>
 
-For applications, I care about what happens beyond the first successful interaction: loading, missing information, retries, review, and recovery. I enjoy working through both the implementation and the interface.
+**Was the evidence missed, or did the answer generator get it wrong?** A controlled comparison of OCR-text, visual, and hybrid retrieval on DocVQA and MP-DocVQA. Locked configurations, aggregate results, and failure analysis make the experiments inspectable.
+
+[**Explore the study and results ↗**](https://github.com/Richmiz/docvqa-evidence-retrieval)
+
+## Questions that drive my research
+
+| Focus | What I explore |
+| :--- | :--- |
+| **Medical imaging** | Segmentation, radiomics, and useful visual representations across datasets. |
+| **Efficient computer vision** | What LoRA, distillation, and quantization preserve—and what they change. |
+| **Document intelligence** | How text and visual evidence support answers to document questions. |
+| **Reliable machine learning** | Calibration, distribution shift, and evaluation that exposes limitations. |
+
+## From experiments to applications
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-stack-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-stack-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-stack-dark.svg">
+  <img src="assets/kinetic-stack-light.svg" width="1200" alt="Core toolkit: Python, PyTorch, LoRA, ONNX, React and Next.js, React Native.">
+</picture>
+
+<details>
+<summary><b>Open the toolbox ↓</b></summary>
+
+<br>
+
+| Area | Tools and methods |
+| :--- | :--- |
+| AI and scientific computing | Python · PyTorch · TensorFlow · NumPy · pandas · scikit-learn |
+| Vision and adaptation | Hugging Face Transformers · CLIP · LoRA · knowledge distillation |
+| Export and inference | ONNX · ONNX Runtime · TensorFlow Lite · quantization |
+| Mobile | React Native · Expo · TypeScript |
+| Web | React · Next.js · Node.js · Tailwind CSS · SQLite |
+| Design and development | Figma · Adobe Illustrator · Git · Linux / WSL |
 
 </details>
 
-## Let's connect
+<details>
+<summary><b>How I approach the work ↓</b></summary>
 
-Interested in medical imaging, applied AI, or building a useful application? I'd be glad to compare ideas and discuss a project.
+<br>
 
-**[Email](mailto:ampahmensahrich@gmail.com)** &nbsp; · &nbsp; **[LinkedIn](https://www.linkedin.com/in/kofi-richmond)** &nbsp; · &nbsp; **[X](https://x.com/richmiz__)** &nbsp; · &nbsp; **[All repositories](https://github.com/Richmiz?tab=repositories)**
+**For research:** meaningful baselines, a clear separation between development and evaluation, and records that let someone inspect a result. Limitations belong beside the conclusions they affect.
 
-<sub>Richmond Ampah-Mensah · Research, code, and design.</sub>
+**For software:** clear interfaces and attention to loading, missing information, retries, and recovery. The details after the first successful interaction matter.
+
+</details>
+
+<br>
+
+<a href="mailto:ampahmensahrich@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-footer-mobile-dark.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-footer-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-footer-dark.svg">
+    <img src="assets/kinetic-footer-light.svg" width="1200" alt="Let's build something useful. Contact Richmond at ampahmensahrich@gmail.com about medical imaging, applied AI, or software.">
+  </picture>
+</a>
+
+<p align="center">
+  <a href="mailto:ampahmensahrich@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/kofi-richmond">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="https://x.com/richmiz__">X</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Richmiz?tab=repositories">All repositories</a>
+</p>
+
+<p align="center"><sub>Richmond Ampah-Mensah · Research, code, and design.<br>Original animated SVG artwork. Illustrations are conceptual.</sub></p>
