@@ -1,6 +1,4 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-hero-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-hero-dark.svg">
   <img src="assets/kinetic-hero-light.svg" width="1280" alt="Richmond Ampah-Mensah — Teaching machines to see. Applied AI, medical imaging, computer vision, document intelligence, and software engineering.">
 </picture>
@@ -22,8 +20,6 @@ I also build **mobile and web applications**, from the interface people touch to
 
 <a href="https://github.com/Richmiz/Deployment-Gatted">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-med-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-med-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-med-dark.svg">
     <img src="assets/kinetic-med-light.svg" width="1200" alt="01 — Medical image segmentation. Seeing the structure within. MedSAM-style adaptation, LoRA, distillation, ONNX, and INT8 evaluation. Open the research repository.">
   </picture>
@@ -37,8 +33,6 @@ I also build **mobile and web applications**, from the interface people touch to
 
 <a href="https://github.com/Richmiz/docvqa-evidence-retrieval">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-doc-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-doc-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-doc-dark.svg">
     <img src="assets/kinetic-doc-light.svg" width="1200" alt="02 — Document intelligence. Finding the evidence within. Text, visual, and hybrid retrieval on DocVQA and MP-DocVQA. Open the study and results.">
   </picture>
@@ -60,8 +54,6 @@ I also build **mobile and web applications**, from the interface people touch to
 ## From experiments to applications
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-stack-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-stack-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-stack-dark.svg">
   <img src="assets/kinetic-stack-light.svg" width="1200" alt="Core toolkit: Python, PyTorch, LoRA, ONNX, React and Next.js, React Native.">
 </picture>
@@ -97,8 +89,6 @@ I also build **mobile and web applications**, from the interface people touch to
 
 <a href="mailto:ampahmensahrich@gmail.com">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/kinetic-footer-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/kinetic-footer-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/kinetic-footer-dark.svg">
     <img src="assets/kinetic-footer-light.svg" width="1200" alt="Let's build something useful. Contact Richmond at ampahmensahrich@gmail.com about medical imaging, applied AI, or software.">
   </picture>
